@@ -1,3 +1,4 @@
+// https://www.cs.wcupa.edu/rkline/ds/fast-sorts.html
 function mergeSort(array: number[]): number[] {
   let mitad = Math.trunc(array.length / 2);
   var izq = array.slice(0, mitad);
